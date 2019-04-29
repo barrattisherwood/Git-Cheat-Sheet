@@ -30,3 +30,8 @@ $ git remote -v
 > origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
 > origin  https://github.com/USERNAME/REPOSITORY.git (push)
 ```
+
+### Amend most recent commit:
+```
+git commit --amend -m "New commit message"
+```
