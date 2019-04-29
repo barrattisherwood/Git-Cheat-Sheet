@@ -31,7 +31,13 @@ $ git remote -v
 > origin  https://github.com/USERNAME/REPOSITORY.git (push)
 ```
 
-### Amend most recent commit:
+## Amend most recent commit
 ```
 git commit --amend -m "New commit message"
+```
+If you've already pushed your commit up to your remote branch, then you'll [need to force push the commit](https://stackoverflow.com/questions/41003071/why-must-i-force-push-after-changing-a-commit-message) with:
+```
+git push <remote> <branch> --force
+# Or
+git push <remote> <branch> -f
 ```
